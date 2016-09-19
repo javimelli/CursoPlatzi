@@ -7,6 +7,11 @@ git status: lista los archivos que están en el estado intemedio preparados para 
 git commit -m "mensaje": Realiza un commit con los archivos en el estado intermdio con ese mensaje. Es identificado con id único.
 git log: Muestra un historial con los commit realizados y datos sobre ellos.
 git log --oneline: Muestra el historial de los commit, pero con menos información.
+git remote add alias urlRemota: vinculami repositorio local con mi repositorio remoto.
+git remote -v: Lista los remotos.
+git remote rename alias aliasNuevo: renombre el alias de un remoto asociado.
+git push alias ramaEnLaQueEstas: Empuja mis cambios locales al remoto.
+git clone urlRepositorio: Crea un repositorio local en el ordenador a partir del remoto. Ya quedan enlazados.
 
 ---------------------------------------------------------------------------------------------
 Tres espacios:
