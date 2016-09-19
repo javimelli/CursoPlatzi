@@ -1,0 +1,16 @@
+git config --global user.email "your email": configuración necesaria.
+git config --global user.name "your name": configuración necesaria. 
+git init: crea un repositorio vacío.
+git add "path fichero": mete en un apartado intermedio el fichero, preparado para commit.
+git add .: mete en el estado intermedio preparado para commit todos los cambios realizados en el repositorio.
+git status: lista los archivos que están en el estado intemedio preparados para realizar el commit.
+git commit -m "mensaje": Realiza un commit con los archivos en el estado intermdio con ese mensaje. Es identificado con id único.
+git log: Muestra un historial con los commit realizados y datos sobre ellos.
+git log --oneline: Muestra el historial de los commit, pero con menos información.
+
+---------------------------------------------------------------------------------------------
+Tres espacios:
+Workspace: es el espacio de trabajo, donde estamos desarrollando.
+Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
+Repository local: es el repositorio local. Se añaden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
