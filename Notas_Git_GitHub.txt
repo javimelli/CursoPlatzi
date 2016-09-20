@@ -12,7 +12,6 @@ git remote -v: Lista los remotos.
 git remote rename alias aliasNuevo: renombre el alias de un remoto asociado.
 git push alias ramaEnLaQueEstas: Empuja mis cambios locales al remoto.
 git clone urlRepositorio: Crea un repositorio local en el ordenador a partir del remoto. Ya quedan enlazados.
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
 ---------------------------------------------------------------------------------------------
 Tres espacios:
