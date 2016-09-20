@@ -1,12 +1,12 @@
-git config --global user.email "your email": configuraciÛn necesaria.
-git config --global user.name "your name": configuraciÛn necesaria. 
-git init: crea un repositorio vacÌo.
+git config --global user.email "your email": configuraci√≥n necesaria.
+git config --global user.name "your name": configuraci√≥n necesaria. 
+git init: crea un repositorio vac√≠o.
 git add "path fichero": mete en un apartado intermedio el fichero, preparado para commit.
 git add .: mete en el estado intermedio preparado para commit todos los cambios realizados en el repositorio.
-git status: lista los archivos que est·n en el estado intemedio preparados para realizar el commit.
-git commit -m "mensaje": Realiza un commit con los archivos en el estado intermdio con ese mensaje. Es identificado con id ˙nico.
+git status: lista los archivos que est√°n en el estado intemedio preparados para realizar el commit.
+git commit -m "mensaje": Realiza un commit con los archivos en el estado intermdio con ese mensaje. Es identificado con id √∫nico.
 git log: Muestra un historial con los commit realizados y datos sobre ellos.
-git log --oneline: Muestra el historial de los commit, pero con menos informaciÛn.
+git log --oneline: Muestra el historial de los commit, pero con menos informaci√≥n.
 git remote add alias urlRemota: vinculami repositorio local con mi repositorio remoto.
 git remote -v: Lista los remotos.
 git remote rename alias aliasNuevo: renombre el alias de un remoto asociado.
@@ -16,6 +16,18 @@ git clone urlRepositorio: Crea un repositorio local en el ordenador a partir del
 ---------------------------------------------------------------------------------------------
 Tres espacios:
 Workspace: es el espacio de trabajo, donde estamos desarrollando.
-Index: es la la zona intermedia para indexar los archivos. Se aÒaden con git add.
-Repository local: es el repositorio local. Se aÒaden los archivos con git commit.
-Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se aÒaden los cambios del local con git push.
+Index: es la la zona intermedia para indexar los archivos. Se a√±aden con git add.
+Repository local: es el repositorio local. Se a√±aden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se a√±aden los cambios del local con git push.
+
+---------------------------------------------------------------------------------------------
+
+Eclipse
+para clonar un repositorio remoto ha uno local desde eclipse damos a importar->git->project from git y le damos los datos
+necesarios incluida la URI del repositorio remoto. Para actualizar los cambios, botÛn derecho synchronize Workspace, a partir
+de aqui podremos ver las actualizaciones, los merges y los archivos nuevos
+Para solucionar un merge se puede realizar el merge que aÒade los cambios del remoto al local o override que sobreescribe el
+remoto esntero en el local.
+Index: es la la zona intermedia para indexar los archivos. Se a√±aden con git add.
+Repository local: es el repositorio local. Se a√±aden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se a√±aden los cambios del local con git push.
