@@ -61,8 +61,38 @@ public class HolaMundo {
 		declaracion1[0] = 0;
 		//Arrays bidimensionales
 		int[][] bidimensional = new int[2][2];
+		//Crecerá hacia abajo ilimitadamente
+		int[][] bidimensional2 = new int [2][];
 		bidimensional[0][0] = 0;
+		//Si acedemos a una zona de memoria que no está en el array nos lanzará la excepcion
+		//ArrayIndexOutBoundsException
+		//System.out.println(bidimensional[3][2]);
+		//Arrays tridimensionales
+		int [][][] tridimensional = new int [2][2][2];
 		
+		//----------------------------------Operadores----------------------------------------
+		
+		int x = 0;
+		System.out.println(x+=2);//x = x + 2
+		//= += -= /= %=
+		//La diferencia entre las dos instrucciones siguientes es que en la primera
+		//primero se realiza la asignación y despúes la operacion, en el otro caso es al revés.
+		System.out.println("El valor de x antes de la ejecución de x++: " + x++);//x = x + 1
+		System.out.println("El valor de x después de la ejecución de la instrucción es : " + x);
+		System.out.println("El valor de x antes de la ejecución de ++x es: " + ++x);
+		
+		//-----------------------------Controles de flujo-------------------------------
+		/*
+		 * if/else
+		 * switch
+		 * whilw
+		 * do while
+		 * for
+		 * foreach :Sirve para reccorrer arrays
+		 */
+		for (int item : declaracion1) {
+			System.out.println(item);
+		}
 		
 	}
 	
