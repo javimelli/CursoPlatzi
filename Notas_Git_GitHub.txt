@@ -12,6 +12,7 @@ git remote -v: Lista los remotos.
 git remote rename alias aliasNuevo: renombre el alias de un remoto asociado.
 git push alias ramaEnLaQueEstas: Empuja mis cambios locales al remoto.
 git clone urlRepositorio: Crea un repositorio local en el ordenador a partir del remoto. Ya quedan enlazados.
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
 ---------------------------------------------------------------------------------------------
 Tres espacios:
@@ -28,6 +29,18 @@ necesarios incluida la URI del repositorio remoto. Para actualizar los cambios, 
 de aqui podremos ver las actualizaciones, los merges y los archivos nuevos
 Para solucionar un merge se puede realizar el merge que a�ade los cambios del remoto al local o override que sobreescribe el
 remoto esntero en el local.
+Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
+Repository local: es el repositorio local. Se añaden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
+Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
+Repository local: es el repositorio local. Se añaden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
+Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
+Repository local: es el repositorio local. Se añaden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
+Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
+Repository local: es el repositorio local. Se añaden los archivos con git commit.
+Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
 Index: es la la zona intermedia para indexar los archivos. Se añaden con git add.
 Repository local: es el repositorio local. Se añaden los archivos con git commit.
 Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador.... se añaden los cambios del local con git push.
