@@ -52,6 +52,18 @@ public class HolaMundo {
 		System.out.println(d1);
 		int i = (int)d1;
 		System.out.println(i);
+		
+		//-----------------------------------Arreglos-----------------------------------------
+		int declaracion1[];
+		int[] declaracion2;
+		//Para poder usar los arrays se debe poner la capacidad
+		declaracion1 = new int[5];//me reservará 4*5 bytes
+		declaracion1[0] = 0;
+		//Arrays bidimensionales
+		int[][] bidimensional = new int[2][2];
+		bidimensional[0][0] = 0;
+		
+		
 	}
 	
 }
