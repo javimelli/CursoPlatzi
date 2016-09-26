@@ -18,4 +18,17 @@ public class POO {
 	 *  Los sustantivos son propiedades y los verbos son métodos.
 	 */
 	
+	/*
+	 * MODIFICADORES DE ACCESO
+	 * public accesible desde cualquier lugar
+	 * protected accesible desde subclases, clases en el mismo paquete y en la clase donde se definió.
+	 * pivate Accesible solo en la clase donde está definido.
+	 * Default accesible  por clases que están en el mismo paquete y en la clase donde se definió.
+	 */
+	
+	/*
+	 * INTERFAZ LIST
+	 * Vector, ArrayList y LinkedList Implementan la interfaz List.
+	 */
+	
 }
