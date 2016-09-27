@@ -22,3 +22,6 @@ Repositorio Remoto: Es el repositorio en gitHub, bitbacked otro ordenador... se 
 
 ----------------------------------------------------------------------------------------------------
 Importar proyecto ha eclipse
+- Pulso botón derecho y voy a importar, eligo la opción de general o maven dependiendo el tipo de proyecto.
+- existing projecto into workspace, eligo el proyecto del repositorio local y finish.
+- Para sincronizar el espcaio de trabajo es botón derecho sobre el proyecto y sychronize workspace.
