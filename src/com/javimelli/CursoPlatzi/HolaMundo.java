@@ -1,4 +1,4 @@
-package com.javimelli.main;
+package com.javimelli.CursoPlatzi;
 
 public class HolaMundo {
 
@@ -73,7 +73,7 @@ public class HolaMundo {
 		//----------------------------------Operadores----------------------------------------
 		
 		int x = 0;
-		System.out.println(x+=2);//x = x + 2
+		System.out.println(x+=2);
 		//= += -= /= %=
 		//La diferencia entre las dos instrucciones siguientes es que en la primera
 		//primero se realiza la asignación y despúes la operacion, en el otro caso es al revés.

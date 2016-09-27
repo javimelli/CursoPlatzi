@@ -25,3 +25,7 @@ Importar proyecto ha eclipse
 - Pulso botón derecho y voy a importar, eligo la opción de general o maven dependiendo el tipo de proyecto.
 - existing projecto into workspace, eligo el proyecto del repositorio local y finish.
 - Para sincronizar el espcaio de trabajo es botón derecho sobre el proyecto y sychronize workspace.
+- Para realizar un commit, primero se añade el archivo al index mediante botón derecho add to index al archivo.
+- Para hacer el commit se añaden los archivos del index que queremos hacer commit y se escribe el mensaje.
+- Para hacer push botón derecho y push branch 'master'..., vemos el commit que vamos a subir y a donde
+  y a que rama del remoto lo vamos a subir. Por último pulsamos finish.
